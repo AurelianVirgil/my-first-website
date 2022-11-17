@@ -1,0 +1,149 @@
+/*Selector {
+	Property: value;
+}*/
+
+* {
+	margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+	font-family: Courier New;
+}
+
+body {
+	background-image: url("earth_background.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.header {
+  overflow: hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+	padding: 1vmin;
+	margin-top: 1vmin;
+}
+
+.menu > li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.menu a {
+	text-decoration-line: none;
+	color: white;
+	font-size: 3vmin;
+}
+
+a:hover {
+	color: gold;
+}
+
+.problem2 {
+	color: black;
+	padding: 8%;
+	font-size: 10vmin;
+}
+
+.description1 {
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+}
+
+.image1 {
+	width: 20%;
+	padding: 1em;
+	border-radius: 40%;
+  position: absolute;
+  left: 0px;
+	transition: transform 0.8s;
+}
+
+.image2 {
+	width: 20%;
+	padding: 1em;
+	border-radius: 40%;
+	position: absolute;
+	left: 0px;
+	transition: transform 0.8s;
+}
+
+.image2:hover {
+  	transform: translate(15%, 15%);
+}
+
+.image {
+	width: 20%;
+	height: 30%;
+	float: left;
+	padding: 1em;
+	border-radius: 40%;
+	transition: width 2s, height 2s;
+}
+
+.image:hover {
+  	width: 26%;
+	  height: 30%;
+}
+
+.description {
+	display: flex;
+	justify-content: flex-start;
+	gap: 1%;
+}
+
+.description > p {
+	background-color: white;
+	max-width: 50%;
+	color: black;
+	padding: 2em;
+	text-align: justify;
+	line-height: 150%;
+	overflow: auto;
+	font-size: 4vmin;
+	word-spacing: -0.3em;
+}
+
+.problem1 {
+	/*another possibility without grid*/
+	/*margin-inline-start: 21%;*/
+	background-color: white;
+	max-width: 61%;
+	color: black;
+	padding: 2em;
+	text-align: justify;
+	line-height: 150%;
+	overflow: auto;
+	font-size: 4vmin;
+	word-spacing: -0.3em;
+}
+
+.first {
+	text-decoration-line: none;
+	font-size: 8vmin;
+	font-weight: bold;
+	color: black;
+}
+
+.first:hover {
+	color: yellowgreen;
+}
+
+.motto p {
+	position: fixed;
+	color: white;
+	font-size: 2vmin;
+  right: 0;
+  bottom: 0;
+  margin: 10px;
+}
+
+
